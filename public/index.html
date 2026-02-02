@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>🌋 地熱新聞與論文彙整</title>
   <link rel="alternate" type="application/rss+xml" title="地熱新聞 RSS" href="/rss">
+  <script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
+  <script>window.gtranslateSettings = {"default_language":"zh-TW","detect_browser_language":false,"languages":["zh-TW","zh-CN","en","ja","fr","id"],"wrapper_selector":".gtranslate_wrapper","float_switcher_open_direction":"bottom"}</script>
   <style>
     :root {
       --primary: #5d9a6b;
@@ -60,23 +62,10 @@
       background: #fff;
       transform: scale(1.05);
     }
-    .lang-selector {
+    .gtranslate_wrapper {
       position: absolute;
       top: 1rem;
       right: 1rem;
-    }
-    .lang-selector select {
-      padding: 0.5rem 1rem;
-      border: none;
-      border-radius: 8px;
-      background: rgba(255,255,255,0.9);
-      color: var(--text);
-      font-size: 0.9rem;
-      cursor: pointer;
-      outline: none;
-    }
-    .lang-selector select:hover {
-      background: #fff;
     }
     header {
       position: relative;
@@ -207,17 +196,7 @@
 </head>
 <body>
   <header>
-    <div class="lang-selector">
-      <select id="langSelect" onchange="translatePage(this.value)">
-        <option value="">🌐 語言 Language</option>
-        <option value="zh-TW">🇹🇼 繁體中文</option>
-        <option value="zh-CN">🇨🇳 简体中文</option>
-        <option value="en">🇺🇸 English</option>
-        <option value="ja">🇯🇵 日本語</option>
-        <option value="fr">🇫🇷 Français</option>
-        <option value="id">🇮🇩 Bahasa Indonesia</option>
-      </select>
-    </div>
+    <div class="gtranslate_wrapper"></div>
     <h1>🌋 地熱新聞與論文彙整</h1>
     <p>Geothermal News & Research Papers</p>
     <p class="author-info">由 <strong>台灣先進地熱</strong> 整理提供</p>
@@ -366,27 +345,7 @@
     }
 
     loadData();
-
-    // Google Translate
-    function translatePage(lang) {
-      if (!lang) return;
-      const currentUrl = window.location.href;
-      const translateUrl = `https://translate.google.com/translate?sl=auto&tl=${lang}&u=${encodeURIComponent(currentUrl)}`;
-      window.open(translateUrl, '_blank');
-    }
   </script>
-
-  <!-- Google Translate Element (alternative inline method) -->
-  <script>
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement({
-        pageLanguage: 'zh-TW',
-        includedLanguages: 'zh-TW,zh-CN,en,ja,fr,id',
-        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-      }, 'google_translate_element');
-    }
-  </script>
-  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   </script>
 </body>
 </html>
