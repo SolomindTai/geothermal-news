@@ -44,6 +44,22 @@
       font-size: 0.9rem;
       color: #fff;
     }
+    .rss-link {
+      display: inline-block;
+      margin-top: 0.75rem;
+      padding: 0.4rem 1rem;
+      background: rgba(255,255,255,0.9);
+      color: var(--primary);
+      text-decoration: none;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+    .rss-link:hover {
+      background: #fff;
+      transform: scale(1.05);
+    }
     .container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
     .tabs {
       display: flex;
@@ -174,6 +190,7 @@
     <p>Geothermal News & Research Papers</p>
     <p class="author-info">由 <strong>台灣先進地熱</strong> 整理提供</p>
     <div class="update-info" id="lastUpdated">載入中...</div>
+    <a href="/rss" class="rss-link" target="_blank">📡 RSS 訂閱</a>
   </header>
 
   <div class="container">
