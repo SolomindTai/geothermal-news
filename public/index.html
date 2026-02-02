@@ -196,14 +196,19 @@
   <div class="container">
     <div class="tabs">
       <button class="tab active" data-section="news-tw">🇹🇼 台灣新聞</button>
+      <button class="tab" data-section="news-cn">🇨🇳 大陸新聞</button>
       <button class="tab" data-section="news-en">🌍 國際新聞</button>
       <button class="tab" data-section="featured">⭐ 精選報導</button>
       <button class="tab" data-section="papers-arxiv">📚 arXiv 論文</button>
       <button class="tab" data-section="papers-journal">📖 期刊論文</button>
       <button class="tab" data-section="papers-semantic">🔬 學術搜尋</button>
+      <button class="tab" data-section="papers-cn">🇨🇳 大陸論文</button>
     </div>
 
     <div id="news-tw" class="section active">
+      <div class="loading"><div class="spinner"></div>載入中...</div>
+    </div>
+    <div id="news-cn" class="section">
       <div class="loading"><div class="spinner"></div>載入中...</div>
     </div>
     <div id="news-en" class="section">
@@ -219,6 +224,9 @@
       <div class="loading"><div class="spinner"></div>載入論文中...</div>
     </div>
     <div id="papers-semantic" class="section">
+      <div class="loading"><div class="spinner"></div>載入論文中...</div>
+    </div>
+    <div id="papers-cn" class="section">
       <div class="loading"><div class="spinner"></div>載入論文中...</div>
     </div>
   </div>
@@ -297,11 +305,13 @@
         }
 
         renderNews(newsRes.chinese, 'news-tw');
+        renderNews(newsRes.mainland, 'news-cn');
         renderNews(newsRes.english, 'news-en');
         renderNews(newsRes.featured, 'featured');
         renderPapers(papersRes.arxiv, 'papers-arxiv');
         renderPapers(papersRes.geothermics, 'papers-journal');
         renderPapers(papersRes.semantic, 'papers-semantic');
+        renderPapers(papersRes.mainland, 'papers-cn');
       } catch (err) {
         console.error('Failed to load data:', err);
       }

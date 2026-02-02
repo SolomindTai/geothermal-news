@@ -76,24 +76,61 @@ async function fetchSemanticScholar() {
   }
 }
 
+// Fetch from CNKI (China National Knowledge Infrastructure) - via search
+async function fetchCNKIPapers() {
+  // Using Baidu Scholar as alternative since CNKI requires auth
+  const url = 'https://xueshu.baidu.com/s?wd=地热能源&rsv_bp=0&tn=SE_baiduxueshu_c1gjeupa&rsv_spt=3&ie=utf-8&f=8&rsv_sug2=0&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D';
+  try {
+    const res = await fetch(url, {
+      headers: { 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36' }
+    });
+    const html = await res.text();
+    const $ = cheerio.load(html);
+    const papers = [];
+    
+    $('.result').slice(0, 8).each((i, el) => {
+      const title = $(el).find('h3 a').text().trim();
+      const link = $(el).find('h3 a').attr('href') || '';
+      const summary = $(el).find('.c_abstract').text().trim();
+      const authors = $(el).find('.author_text span').map((i, a) => $(a).text()).get().join(', ');
+      if (title) {
+        papers.push({
+          title,
+          link: link.startsWith('http') ? link : `https://xueshu.baidu.com${link}`,
+          authors,
+          summary: summary.slice(0, 500) + '...',
+          published: 'Recent',
+          source: '百度学术'
+        });
+      }
+    });
+    return papers;
+  } catch (err) {
+    console.error('Error fetching CNKI:', err.message);
+    return [];
+  }
+}
+
 async function main() {
   console.log('Fetching geothermal papers...');
   
-  const [arxiv, geothermics, semantic] = await Promise.all([
+  const [arxiv, geothermics, semantic, cnki] = await Promise.all([
     fetchArxiv(),
     fetchGeothermicsJournal(),
-    fetchSemanticScholar()
+    fetchSemanticScholar(),
+    fetchCNKIPapers()
   ]);
 
   const data = {
     lastUpdated: new Date().toISOString(),
     arxiv,
     geothermics,
-    semantic
+    semantic,
+    mainland: cnki
   };
 
   fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
-  console.log(`Saved ${arxiv.length + geothermics.length + semantic.length} papers to ${DATA_FILE}`);
+  console.log(`Saved ${arxiv.length + geothermics.length + semantic.length + cnki.length} papers to ${DATA_FILE}`);
 }
 
 main();

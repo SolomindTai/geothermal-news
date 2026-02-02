@@ -55,9 +55,10 @@ async function fetchCleanTechnica() {
 async function main() {
   console.log('Fetching geothermal news...');
   
-  const [enNews, twNews, cleantech] = await Promise.all([
+  const [enNews, twNews, cnNews, cleantech] = await Promise.all([
     fetchGoogleNews('geothermal energy', 'en'),
     fetchGoogleNews('地熱', 'zh-TW'),
+    fetchGoogleNews('地热 能源', 'zh-CN'),
     fetchCleanTechnica()
   ]);
 
@@ -65,11 +66,12 @@ async function main() {
     lastUpdated: new Date().toISOString(),
     english: enNews,
     chinese: twNews,
+    mainland: cnNews,
     featured: cleantech
   };
 
   fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
-  console.log(`Saved ${enNews.length + twNews.length + cleantech.length} news items to ${DATA_FILE}`);
+  console.log(`Saved ${enNews.length + twNews.length + cnNews.length + cleantech.length} news items to ${DATA_FILE}`);
 }
 
 main();
