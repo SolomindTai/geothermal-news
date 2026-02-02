@@ -1,0 +1,279 @@
+{
+  "lastUpdated": "2026-02-02T20:59:04.403Z",
+  "arxiv": [
+    {
+      "title": "A Generalized Analytical Heat Transfer Model for Enhanced Geothermal Systems: Capturing Fracture Interactions and Correcting Classical Optimistic Predictions",
+      "link": "http://arxiv.org/abs/2601.22316v1",
+      "authors": "Nelson Barros-Galvis or Christine Ehlig-Economides or Cristi Darley Guevara",
+      "summary": "Numerical analytical heat transfer models play a critical role in geothermal design and feasibility studies. Classical solutions, such as those proposed by Gringarten et al. 1975, rely on simplified assumptions and systematically overestimate thermal performance, which can lead to unrealistic engineering decisions. This study presents a generalized analytical model for enhanced geothermal systems that explicitly captures thermal interactions between fractures while preserving analytical tractabi...",
+      "published": "2026-01-29T20:56:57Z",
+      "source": "arXiv"
+    },
+    {
+      "title": "LAViG-FLOW: Latent Autoregressive Video Generation for Fluid Flow Simulations",
+      "link": "http://arxiv.org/abs/2601.13190v1",
+      "authors": "Vittoria De Pellegrini, Tariq Alkhalifah",
+      "summary": "Modeling and forecasting subsurface multiphase fluid flow fields underpin applications ranging from geological CO2 sequestration (GCS) operations to geothermal production. This is essential for ensuring both operational performance and long-term safety. While high fidelity multiphase simulators are widely used for this purpose, they become prohibitively expensive once many forward runs are required for inversion purposes and quantify uncertainty. To tackle this challenge we propose LAViG-FLOW, a...",
+      "published": "2026-01-19T16:12:41Z",
+      "source": "arXiv"
+    },
+    {
+      "title": "Spatiotemporal Change-Points in Development Discourse: Insights from Social Media in Low-Resource Contexts",
+      "link": "http://arxiv.org/abs/2601.06402v2",
+      "authors": "Woojin Jung, Charles Chear, Andrew H. Kim, Vatsal Shah, Tawfiq Ammari",
+      "summary": "This study investigates the spatiotemporal evolution of development discourse in low-resource settings. Analyzing more than two years of geotagged X data from Zambia, we introduce a mixed-methods pipeline utilizing topic modeling, change-point detection, and qualitative coding to identify critical shifts in public debate. We identify seven recurring themes, including public health challenges and frustration with government policy, shaped by regional events and national interventions. Notably, we...",
+      "published": "2026-01-10T02:56:33Z",
+      "source": "arXiv"
+    },
+    {
+      "title": "Heat-flash travel just above a deep Mediterranean seafloor",
+      "link": "http://arxiv.org/abs/2601.04713v1",
+      "authors": "Hans van Haren",
+      "summary": "The deep sea is weakly stratified in density but shows considerable variations in turbulent motions in all three directions. When registered by moored high-resolution temperature 'T'-sensors, the motions cause variations of 0.01degrC or less and in time of minutes or less, which is much faster than hours or longer of internal waves. Occasionally, T-sensors close to the seafloor register minute-long flashes of 0.0005-0.001degrC warmer than the environment. When singular, such flashes may be artef...",
+      "published": "2026-01-08T08:29:18Z",
+      "source": "arXiv"
+    },
+    {
+      "title": "Deep Mediterranean turbulence motions under near-homogeneous conditions",
+      "link": "http://arxiv.org/abs/2601.04684v1",
+      "authors": "Hans van Haren",
+      "summary": "Very weakly density-stratified, near-homogeneous 'NH' conditions are found in the deep Western Mediterranean Sea. Under these conditions, over vertical ranges of several hundreds of meters water temperature varies only a few 0.0001degrC and the buoyancy frequency is smaller than the local inertial frequency. While such waters are characterized as 'quiescent', they are not stagnant and demonstrate regular bursts of turbulent overturns across scales larger than 10 m that are relevant for deep-sea ...",
+      "published": "2026-01-08T07:53:52Z",
+      "source": "arXiv"
+    },
+    {
+      "title": "Deep Mediterranean turbulence motions under stratified-water conditions",
+      "link": "http://arxiv.org/abs/2601.04681v1",
+      "authors": "Hans van Haren",
+      "summary": "Vertically stable in density, stratified-water conditions 'SW' exist in the deep Mediterranean Sea that are characterized by temperature differences of 0.0002-0.01degrC over 125 m above a flat seafloor. These result in a mean buoyancy frequency of N = (1.5-2)f, where f denotes the inertial frequency. Although the stability values are one order of magnitude smaller than found in the ocean, they govern a dynamical deep sea as demonstrated using observations from a 3D mooring-array equipped with ne...",
+      "published": "2026-01-08T07:48:21Z",
+      "source": "arXiv"
+    },
+    {
+      "title": "Stratified-turbulence observations in the deep Mediterranean",
+      "link": "http://arxiv.org/abs/2601.03913v1",
+      "authors": "Hans van Haren",
+      "summary": "A nearly half-cubic hectometer of deep Mediterranean-Sea waters is yearlong sampled with about 3000 high-resolution temperature sensors to study different sources of turbulent waterflows, which are vital for life. Although temperature differences are never larger than 0.01degrC, daily, weekly, and seasonal variations are observed. About half the time, relatively warm stratified waters are moved from 100's of meters higher levels to near the seafloor. These internal-wave and sub-mesoscale eddy-in...",
+      "published": "2026-01-07T13:27:11Z",
+      "source": "arXiv"
+    },
+    {
+      "title": "Estimation of the tidal heating in the TRAPPIST-1 planets. Influence of the internal structure",
+      "link": "http://arxiv.org/abs/2601.03408v1",
+      "authors": "Emeline Bolmont, Mariana Sastre, Alexandre Revol, Mathilde Kervazo, Gabriel Tobie",
+      "summary": "With the arrival of JWST observations of the TRAPPIST-1 planets, it is timely to reassess the contribution of tidal heating to their heat budget. JWST thermal phase curves could reveal endogenic heating through an anomalously high nightside temperature, providing an opportunity to estimate tidal heating. In this study, we revisit the tidal heating of these planets and propose a simple method to compute the tidal heating profile across a broad range of parameters. Our approach leverages a known f...",
+      "published": "2026-01-06T20:51:06Z",
+      "source": "arXiv"
+    },
+    {
+      "title": "Physics-Based Decline Curve Analysis and Machine Learning for Temperature Forecasting in Enhanced Geothermal Systems: Utah FORGE",
+      "link": "http://arxiv.org/abs/2601.03283v1",
+      "authors": "Mina S. Khalaf",
+      "summary": "Reliable temperature forecasting in Enhanced Geothermal Systems (EGS) is essential, yet petroleum-based decline curves and many machine-learning surrogates do not enforce geothermal heat transfer, while thermo-hydro-mechanical (THM) simulation remains computationally expensive. This study proposes a physics-consistent framework that advances both decline-curve analysis and surrogate modeling. The classical Arps decline family is generalized for geothermal use by introducing an equilibrium-temper...",
+      "published": "2026-01-02T04:17:03Z",
+      "source": "arXiv"
+    },
+    {
+      "title": "Prediction Air Temperature in Geothermal Heat Exchangers Using Pseudorandom Numbers: The New DARL Model",
+      "link": "http://arxiv.org/abs/2512.19976v1",
+      "authors": "C. Ramírez-Dolores, J. C. Zamora-Luria, J. A. Altamirano-Acosta, L. Sarao-Cruz, P. Jiménez-Palma, J. Moreno-Falconi",
+      "summary": "The use of Earth-Air-Water Heat Exchangers (EAWHE) for sustainable air conditioning has not been widely studied. Due to their experimental nature, methods of characterizing internal thermal air distribution impose high dependence on instrumentation by sensors and entail data acquisition and computational costs. This document presents an alternative method that estimates air temperature distribution while minimizing the need for a dense network of sensors in the experimental system. The proposed ...",
+      "published": "2025-12-23T01:54:39Z",
+      "source": "arXiv"
+    },
+    {
+      "title": "Automation as a Catalyst for Geothermal Energy Adoption in Qatar: A Techno-Economic and Environmental Assessment",
+      "link": "http://arxiv.org/abs/2512.11890v1",
+      "authors": "Tariq Eldakruri, Edip Senyurek",
+      "summary": "Geothermal energy provides continuous low emission potential but is underused in Qatar because of high capital costs, drilling risks, and uncertainty in subsurface conditions. This study examines how automation can improve the techno economic and environmental feasibility of geothermal deployment through three pathways: Enhanced Geothermal Systems in the Dukhan Basin, repurposed oil and gas wells, and ground source heat pumps for district cooling. Using geological datasets and financial modeling...",
+      "published": "2025-12-09T11:12:24Z",
+      "source": "arXiv"
+    },
+    {
+      "title": "Introducing GeoHEAT: Georadar-aided High-resolution Exploration for Advancing geoThermal energy usage",
+      "link": "http://arxiv.org/abs/2511.09095v1",
+      "authors": "Alexis Shakas, Linus Villiger, Edoardo Pezzulli, Matthew Schubert, Johan Friborg, Anton Nordenstam, Arnaud Mignan, Paul Lehmann, Dieter Werthmüller, Maren Breme, Michèle Marti, Stefan Wiemer, Geneviève Savard, Francisco Munoz-Burbano, Matteo Lupi, Christin Bobe, Florian Wellmann, Ezgi Satiroglu, Tabea Kautz, Kavan Khaledi, Francesco Grigoli, Claudia Finger, Erik Saenger, Evert Slob, Katrin Loer",
+      "summary": "We present a novel geothermal exploration approach that integrates innovations at three spatial scale. At the regional scale (~100 km) we create LCOE heat maps using a techno-economic and metamodel analysis. This allows us to choose several potential sites to perform a reservoir scale (~10 km) assessment with passive seismics and gravity. By integrating the latter with probabilistic geological and geomechanical modeling we propose locations to drill exploration boreholes. Then follows a high-res...",
+      "published": "2025-11-12T08:11:11Z",
+      "source": "arXiv"
+    },
+    {
+      "title": "GAIA: Geothermal Analytics and Intelligent Agent",
+      "link": "http://arxiv.org/abs/2511.03852v1",
+      "authors": "Randy Harsuko, Zhengfa Bi, Nori Nakata",
+      "summary": "Geothermal field development typically involves complex processes that require multi-disciplinary expertise in each process. Thus, decision-making often demands the integration of geological, geophysical, reservoir engineering, and operational data under tight time constraints. We present Geothermal Analytics and Intelligent Agent, or GAIA, an AI-based system for automation and assistance in geothermal field development. GAIA consists of three core components: GAIA Agent, GAIA Chat, and GAIA Dig...",
+      "published": "2025-11-05T20:51:17Z",
+      "source": "arXiv"
+    },
+    {
+      "title": "Design Optimization and Global Impact Assessment of Solar-Thermal Direct Air Carbon Capture",
+      "link": "http://arxiv.org/abs/2510.20135v1",
+      "authors": "Zhiyuan Fan, Bolun Xu",
+      "summary": "The dual challenge of decarbonizing the economy and meeting rising global energy demand underscores the need for scalable and cost-effective carbon dioxide removal technologies. Direct air capture (DAC) is among the most promising approaches, but its high energy intensity, particularly the thermal energy required for sorbent regeneration, remains a critical barrier to cost reduction and sustainable deployment. This study explores solar-thermal DAC systems that combine concentrated solar thermal ...",
+      "published": "2025-10-23T02:17:33Z",
+      "source": "arXiv"
+    },
+    {
+      "title": "PCP-GAN: Property-Constrained Pore-scale image reconstruction via conditional Generative Adversarial Networks",
+      "link": "http://arxiv.org/abs/2510.19465v1",
+      "authors": "Ali Sadeghkhani, Brandon Bennett, Masoud Babaei, Arash Rabbani",
+      "summary": "Obtaining truly representative pore-scale images that match bulk formation properties remains a fundamental challenge in subsurface characterization, as natural spatial heterogeneity causes extracted sub-images to deviate significantly from core-measured values. This challenge is compounded by data scarcity, where physical samples are only available at sparse well locations. This study presents a multi-conditional Generative Adversarial Network (cGAN) framework that generates representative pore...",
+      "published": "2025-10-22T10:54:51Z",
+      "source": "arXiv"
+    }
+  ],
+  "geothermics": [
+    {
+      "title": "Experimental and geochemical evidence for magmatic origin of Li-Rb-Cs in geothermal waters of the Yangbajing-Gulu Rift, Tibet",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0375650526000192?dgcid=rss_sd_all",
+      "summary": "Publication date: March 2026Source: Geothermics, Volume 136Author(s): Wenjie Sun, Jiabin Duan, Mingliang Liu, Fangyang Hu, Xiaodong Jiang, Yanlong Kong...",
+      "published": "",
+      "source": "Geothermics Journal"
+    },
+    {
+      "title": "Hydrochemical evolution of hydrothermal systems driven by seawater mixing in the southeastern coastal region of China: insights from water chemistry and isotopes",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0375650526000210?dgcid=rss_sd_all",
+      "summary": "Publication date: March 2026Source: Geothermics, Volume 136Author(s): Yongchao Cai, Chunlei Liu, Shengwei Cao, Jing Li, Yan Dong...",
+      "published": "",
+      "source": "Geothermics Journal"
+    },
+    {
+      "title": "Prioritizing resource protection and understanding potential susceptibility of springs to surficial changes in a low-temperature geothermal system",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0375650526000209?dgcid=rss_sd_all",
+      "summary": "Publication date: March 2026Source: Geothermics, Volume 136Author(s): Connor P. Newman, Jeff D. Pepin...",
+      "published": "",
+      "source": "Geothermics Journal"
+    },
+    {
+      "title": "Identifying the genesis and evolution of geothermal water in the coal mining area, North China: Insights from hydrochemistry and δ<sup>2</sup>H, δ<sup>18</sup>O, δ<sup>13</sup>C, δ<sup>34</sup>S and <sup>87</sup>Sr/<sup>86</sup>Sr isotopes",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0375650526000167?dgcid=rss_sd_all",
+      "summary": "Publication date: March 2026Source: Geothermics, Volume 136Author(s): Jie Zhang, Herong Gui, Luwang Chen, Manli Lin, Huifang Rong, Jun Li, Ruirui Li, Mingda Cao...",
+      "published": "",
+      "source": "Geothermics Journal"
+    },
+    {
+      "title": "3D resistivity model of the los Humeros geothermal field in Mexico, based on magnetotelluric data",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0375650525003426?dgcid=rss_sd_all",
+      "summary": "Publication date: March 2026Source: Geothermics, Volume 136Author(s): José M. Romo-Jones, Claudia Arango-Galván, Diego Ruiz-Aguilar, Gylfi Páll Hersir, Ásdís Benediktsdóttir, José L. Salas-Corrales, Thalia A. Esquivel-Avilés, Sebastian Held...",
+      "published": "",
+      "source": "Geothermics Journal"
+    },
+    {
+      "title": "Influence of evaluation methods on mechanical properties of cement under thermal cycling: A comparative study between small-scale samples and full-scale annular systems",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0375650526000131?dgcid=rss_sd_all",
+      "summary": "Publication date: March 2026Source: Geothermics, Volume 136Author(s): Niantao Zhou, Hong Zhang, Yuan Jiajie, Yuhan Pang, Fuping Xiao, Yuanhua Lin, Kuanhai Deng, Junping Zhou, Qiqoping Liu...",
+      "published": "",
+      "source": "Geothermics Journal"
+    },
+    {
+      "title": "Reservoir temperature prediction utilizing a least squares boosting model optimized by kepler optimization algorithm",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0375650526000179?dgcid=rss_sd_all",
+      "summary": "Publication date: March 2026Source: Geothermics, Volume 136Author(s): Ling Zhou, Xiangzhe Chen, Ruzhen Hu, Peng Yan, Jingchao Sun...",
+      "published": "",
+      "source": "Geothermics Journal"
+    },
+    {
+      "title": "Geological and geochemical characteristics of the non-volcanic geothermal system in Surat Thani area, southern Thailand",
+      "link": "https://www.sciencedirect.com/science/article/pii/S037565052600012X?dgcid=rss_sd_all",
+      "summary": "Publication date: March 2026Source: Geothermics, Volume 136Author(s): Pitsanupong Kanjanapayont, Panupong Kongpet, Petchploy Ninsuwan, Sorawit Duangkhun, Rungroj Arjwech...",
+      "published": "",
+      "source": "Geothermics Journal"
+    },
+    {
+      "title": "Evaluation of multiphase flow models for wellbore flow characterization in geothermal wells",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0375650526000143?dgcid=rss_sd_all",
+      "summary": "Publication date: March 2026Source: Geothermics, Volume 136Author(s): Orkhan Khankishiyev, Hamidreza Karami, Fatemeh Karbalaeisaleh...",
+      "published": "",
+      "source": "Geothermics Journal"
+    },
+    {
+      "title": "Analysis of hydrochemical characteristics and geothermal genesis mechanism of the Zhantian-Huitong geothermal belt, Ningdu County",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0375650526000180?dgcid=rss_sd_all",
+      "summary": "Publication date: March 2026Source: Geothermics, Volume 136Author(s): Binghong Fan, Ximin Bai, Hailong Ye, Gongxin Chen, Yanyan Li, Ziqi Zeng, Wei Chen...",
+      "published": "",
+      "source": "Geothermics Journal"
+    }
+  ],
+  "semantic": [
+    {
+      "title": "Western Wind and Solar Integration Study",
+      "link": "https://www.semanticscholar.org/paper/75ef6d415ddf3ebd7b3445c544d86d3a35a99dcc",
+      "authors": "Geothermal Energy",
+      "summary": "No abstract available...",
+      "published": "2010-05-01",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "A comprehensive review of geothermal energy storage: Methods and applications",
+      "link": "https://www.semanticscholar.org/paper/2636147a5e64038f9ebbec36b71e296c13d58c5e",
+      "authors": "Manan Shah, Mitul H Prajapati, K. Yadav, A. Sircar",
+      "summary": "No abstract available...",
+      "published": "2024-09-01",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Developing Kilometers-long Gravity Heat Pipe for Geothermal Energy Exploitation",
+      "link": "https://www.semanticscholar.org/paper/c9b45e064532f303475579a2e595bed2de9cada5",
+      "authors": "Wenbo Huang, Juanwen Chen, Qingshan Ma, Linxiao Xing, Guiling Wang, Jiwen Cen, Zhibin Li, Ang Li, Fangming Jiang",
+      "summary": "At medium-deep and deep depths of Earth crust lays vast and so far mostly untapped reserves of geothermal energy. This energy source has the potential of meeting humanity’s needs for......",
+      "published": "Unknown",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Enhanced geothermal systems for clean firm energy generation",
+      "link": "https://www.semanticscholar.org/paper/7248216362ecfdc4dc7cbec6b43167ece834fd1f",
+      "authors": "Roland Horne, Albert Genter, Mark McClure, William L. Ellsworth, Jack Norbeck, Eva Schill",
+      "summary": "No abstract available...",
+      "published": "2025-01-31",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Opportunities and Challenges of Geothermal Energy: A Comparative Analysis of Three European Cases—Belgium, Iceland, and Italy",
+      "link": "https://www.semanticscholar.org/paper/295666495c9715fb881c8c2ee004d7cf836dced3",
+      "authors": "Rauan Meirbekova, Dario Bonciani, D. Ólafsson, Aysun Korucan, Pınar Derin-Güre, V. Harcouët-Menou, Wilfried Bero",
+      "summary": "Geothermal energy is a unique energy source in the energy policy mix that would help the clean energy transition and energy independence, supporting the energy needs in heating and electricity. Although there have been studies on the opportunities and challenges of renewable energy, this paper is the first paper that concentrates on geothermal energy for three distinct countries, Italy, Belgium, and Iceland, for the first time. Using semi-structured interviews that will cover the stakeholders re...",
+      "published": "2024-08-20",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Insight into the dynamics of EMHD hybrid nanofluid (ZnO/CuO-SA) flow through a pipe for geothermal energy applications",
+      "link": "https://www.semanticscholar.org/paper/86080dffdab5986efeefece0b36d7d70608f3344",
+      "authors": "M. Bhatti, M. Marin, R. Ellahi, I. Fudulu",
+      "summary": "No abstract available...",
+      "published": "2023-10-12",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "A State-of-the-art Review on for Geothermal Energy Extraction, Utilization, and Improvement Strategies: Conventional, Hybridized, and Enhanced Geothermal Systems",
+      "link": "https://www.semanticscholar.org/paper/10c1e353d0633efe99ad523c62a17a8a2fceb611",
+      "authors": "T. Sharmin, Nazia Rodoshi Khan, Md. Saleh Akram, M. M. Ehsan",
+      "summary": "No abstract available...",
+      "published": "2023-03-01",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Unveiling the Carbon Footprint: Biomass vs. Geothermal Energy in Indonesia",
+      "link": "https://www.semanticscholar.org/paper/e6a3b2eea5def3e96882c3e1e87718cdaef5e7d7",
+      "authors": "Ghalieb Mutig Idroes, S. Syahnur, M. Shabri, A. Majid, R. Idroes, F. Kusumo, Irsan Hardi",
+      "summary": "Global climate change, caused by greenhouse gases (GHGs) emissions, particularly carbon dioxide (CO2), has an enormous and unprecedented impact on our planet's ecosystem, development, and long-term sustainability. This study investigates the dynamic impact of biomass and geothermal energy on CO2 emissions in Indonesia from 2000 to 2020. Employing the Green Solow model with the approach of Fully-Modified Ordinary Least Squares (FMOLS), Dynamic Ordinary Least Squares (DOLS), Autoregressive Distrib...",
+      "published": "2023-07-05",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Review of discrete fracture network characterization for geothermal energy extraction",
+      "link": "https://www.semanticscholar.org/paper/85d8068c4c17994bb4af1e0a27ded51798589526",
+      "authors": "Giacomo Medici, Fanlin Ling, J. Shang",
+      "summary": "Geothermal reservoirs are highly anisotropic and heterogeneous, and thus require a variety of structural geology, geomechanical, remote sensing, geophysical and hydraulic techniques to inform Discrete Fracture Network flow models. Following the Paris Agreement on reduction of carbon emissions, such reservoirs have received more attention and new techniques that support Discrete Fracture Network models were developed. A comprehensive review is therefore needed to merge innovative and traditional ...",
+      "published": "2023-12-14",
+      "source": "Semantic Scholar"
+    },
+    {
+      "title": "Geothermal energy and carbon emissions nexus in leading geothermal-consuming nations: Evidence from nonparametric analysis",
+      "link": "https://www.semanticscholar.org/paper/7f16d3a107d0f99204425698ce630152d987a38d",
+      "authors": "Muhammad Umar, Abraham Ayobamiji Awosusi, O. Adegboye, Opeoluwaseun Ojekemi",
+      "summary": "The pursuit of decarbonization has created an awareness globally in relation to geothermal energy, either for electricity generation or direct usage, since fuel combustion is not needed. Premised on this intriguing detail, this present research scrutinizes the impact of geothermal energy on CO2 emissions in the top seven geothermal energy-consuming nations. Using the quarterly dataset of geothermal and CO2 emissions stretching over the period between 1990 and 2019. The quantile-on-quantile (QQ) ...",
+      "published": "2023-02-13",
+      "source": "Semantic Scholar"
+    }
+  ]
+}
